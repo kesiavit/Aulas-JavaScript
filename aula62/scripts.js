@@ -10,3 +10,19 @@ fruits = (maça, abacaxi, malancia, banana)
 console.log(fruits[2]) -> melancia
 
 */
+
+
+// Criando um array com um construtor.
+
+const newArray = new Array()
+console.log(newArray) //[]
+
+// Retorna o tamanho do Array
+console.log(newArray.length)
+
+// [] -> Array
+// {} -> Object
+
+// Cria o Array com 10 posições vazias
+const availabe = new Array(10)
+console.log(availabe) //(10) [empyty x 10]
